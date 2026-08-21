@@ -1,0 +1,31 @@
+# Environments
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Supabase
+supabase/.temp/
+
+# OS files
+.DS_Store
+*.pem
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Server uploads
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Scratch
+scratch/
